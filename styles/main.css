@@ -1,10 +1,26 @@
 body {
 	margin: 0;
 }
-header {
-	background: #999;
+
+ul li {
 	color: white;
-	padding: 15px 15px 0 15px;
+	background-color: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 15px;
+}
+
+header {
+	background: black;
+	color: white;
+	padding: 15px 15px 5px 15px;
+}
+
+
+
+
+ul li {
+	color: white;
 }
 
 header h1 {
@@ -18,17 +34,6 @@ nav ul{
 	display: inline;
 }
 
-nav ul li {
-	background-color: black;
-	color: white;
-	display: inline-block;
-	list-style-type: none;
-	padding: 5px 15px;
-}
-
-nav ul li a {
-	color: white;
-}
 
 .row {
 	clear: both;	
@@ -47,4 +52,12 @@ nav ul li a {
 
 footer {
 	clear: both;
+}
+
+h1 {
+	color: #FFFFFF;
+	display: inline-block;
+	list-style-type: none;
+	padding: 2px 5px 5px 5px;
+	font-size: 200%;
 }
